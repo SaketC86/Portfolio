@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="navbar">
+    <div class="nav-inner">
+      <div class="logo-wrap">
+        <a href="#home" class="logo">Saket.dev</a>
+        <div class="loading-box"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="home">
+    <h1>Hi, I'm Saket Chidire</h1>
+    <h2>1st Year B.Tech CSE Student</h2>
+    <p>I study 1st year B.Tech CSE at Amrita Vishwa Vidyapeetham.<br>I am planning to be a software engineer.</p>
+    <a href="#projects" class="btn">View My Projects</a>
+    <a href="#contact" class="btn-outline">Contact Me</a>
+  </div>
+
+  <div id="about">
+    <div class="inner">
+      <h2>About Me</h2>
+      <hr class="divider" />
+      
+      <div class="about-inner">
+        <div class="about-photos">
+          <img src="photo.webp" alt="Saket Chidire" class="about-photo" />
+        </div>
+        <div class="about-text">
+          
+          <p>I am Saket from Hyderabad,Telangana.I am a B.Tech Computer Science student at Amrita Vishwa Vidyapeetham, Amritapuri.Beginner level coder in 1st year Semester 2, learning Python, CSS and Java.
+            My goal is to become a Software Professional like my father, who inspired me to take this branch.</p>
+        </div>
+      </div>
+
+      <div class="about-links">
+        <a href="mailto:am.sc.u4cse25345@am.students.amrita.edu">&#128231; Work Email</a>
+        <a href="mailto:saketchidire@gmail.com">&#128231; Personal Email</a>
+        <a href="https://github.com/SaketC86" target="_blank">&#128025; GitHub</a>
+        <a href="https://www.linkedin.com/in/saket-chidire-988ba2376/" target="_blank">&#128188; LinkedIn</a>
+      </div>
+
+    </div>
+  </div>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <hr class="divider" />
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🏗️</div>
+        <h3>HTML</h3>
+        <p>Webpages with images, forms, links and more!</p>
+        <div class="skill-bar-track"><div class="skill-bar"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <h3>CSS</h3>
+        <p>Responsive design and animations similar to this website!</p>
+        <div class="skill-bar-track"><div class="skill-bar"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">☕</div>
+        <h3>Java</h3>
+        <p>Object Oriented Programming — useful for backend development.</p>
+        <div class="skill-bar-track"><div class="skill-bar"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <h3>Python</h3>
+        <p>Sorting, searching, functions and medium level Python programs.</p>
+        <div class="skill-bar-track"><div class="skill-bar"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="projects">
+    <h2>Projects</h2>
+    <hr class="divider" />
+    <div class="proj-wrap">
+      <div class="card">
+        <div class="card-thumb">&#127760;</div>
+        <div class="card-body">
+          <h3>My First HTML &amp; CSS Portfolio</h3>
+          <p>My very first project! Responsive design using viewport, animations, transitions and more.</p>
+          <a href="https://github.com/SaketC86" target="_blank">View on GitHub &rarr;</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-thumb">&#128241;</div>
+        <div class="card-body">
+          <h3>Online Delivery Management System <span style="font-size:12px;color:rgb(233, 69, 96);">(WIP)</span></h3>
+          <p>A group project — users can order food from nearby restaurants with live tracking. Coming soon to GitHub!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="inner">
+      <h2>Contact Me</h2>
+      <hr class="divider" />
+      <form method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First name" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Last name" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="name@gmail.com" required />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="">-- Select --</option>
+            <option value="collab">Project Collaboration</option>
+            <option value="feedback">Portfolio Feedback</option>
+            <option value="internship">Internship</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Preferred Contact</label>
+          <div class="radio-group">
+            <label><input type="radio" name="pref" value="email" checked /> Email</label>
+            <label><input type="radio" name="pref" value="phone" /> Phone</label>
+            <label><input type="radio" name="pref" value="linkedin" /> LinkedIn</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+        </div>
+        <button type="submit" class="form-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="footer">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+      <li><a href="https://github.com/SaketC86" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/saket-chidire-988ba2376/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>

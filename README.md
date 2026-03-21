@@ -2,7 +2,7 @@
 
 This is my portfolio website for the User Interface Design Assignment.
 
-## Live Demo
+## Website
 https://saketc86.github.io/Portfolio/  
 
 ## About

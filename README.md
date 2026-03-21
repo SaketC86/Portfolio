@@ -1,6 +1,6 @@
 # Saket Chidire - Portfolio website
 
-This is my portfolio website for the User Interface Design assignment at Amrita Vishwa Vidyapeetham.
+This is my portfolio website for the User Interface Design Assignment.
 
 ## About
 This is my first HTML and CSS project. This has all the projects, skills and contacts.

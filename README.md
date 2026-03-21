@@ -19,7 +19,9 @@ This is my first HTML and CSS project. This has all the projects, skills and con
 ## New CSS concepts I learned while doing this project
 @keyframes, animation, transform, transition attributes, which I used to create animations like the rotating box I put at the top.
 
-I also some more small animations like hover and focus for the buttons.
+I also some more small animations like hover and focus when you hover the skills and for the buttons.
+
+Also I added blinking borders for the projects section.
 
 If you want to see more info of the animations I used, I learned  from a 9 minute video by Coding2GO on Youtube. This is the link:
 

@@ -23,9 +23,9 @@ If you want to see more info of the animations I used, I learned  from a 9 minut
 https://www.youtube.com/watch?v=z2LQYsZhsFw&t=1s
 
 ## Made by
-Name:Saket Chidire
-Class:CSE D
-Roll no:AM.SC.U4CSE25345
+Name:Saket Chidire  
+Class:CSE-D  
+Roll no:AM.SC.U4CSE25345  
 
 
 

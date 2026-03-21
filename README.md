@@ -10,8 +10,8 @@ This is my first HTML and CSS project. This has all the projects, skills and con
 2) About: Has profile photo, about me, and contact links.  
 3) Skills: Shows the languages learned by me.  
 4) Projects: Has my current and future projects.  
-5)Contacts: This is a form which users can enter their data like name, email, etc and contact me.  
-6)Form received: After submitting the form, a success message appears.
+5) Contacts: This is a form which users can enter their data like name, email, etc and contact me.  
+6) Form received: After submitting the form, a success message appears.
 
 ## New CSS concepts I learned while doing this project
 @keyframes, animation, transform, transition attributes, which I used to create animations like the rotating box I put at the top.
